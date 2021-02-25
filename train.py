@@ -1,9 +1,9 @@
 import torch
 
-from dataset_handler import MovieLens
-from losses import ewarp_loss
-from nets import UserNet
-from train_handler import Trainer, get_device
+from .dataset_handler import MovieLens
+from .losses import ewarp_loss
+from .nets import UserNet
+from .train_handler import Trainer, get_device
 
 
 dataset = 'ml-20m'

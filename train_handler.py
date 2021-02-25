@@ -8,12 +8,12 @@ from typing import Sequence
 from torch.utils.data import DataLoader
 from torch import tensor
 
-from logger import Log
+from .logger import Log
 from tqdm import tqdm
 import torch
 import numpy as np
 
-from metrics import ndcg_score
+from .metrics import ndcg_score
 
 
 def negative_head(g, n):

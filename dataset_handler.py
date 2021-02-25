@@ -6,7 +6,7 @@ from sklearn.preprocessing import MultiLabelBinarizer, LabelEncoder
 from torch.utils.data import Dataset
 from numpy.random import randint
 
-from download_movielens import download
+from .download_movielens import download
 
 class MovieLens(Dataset):
     """
